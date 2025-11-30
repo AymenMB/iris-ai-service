@@ -323,7 +323,7 @@ docker compose up
 
 ## 👤 Auteur
 
-**Étudiant MLOps 2025-26**  
+- **Étudiant** - Aymen Mabrouk
 Sous la direction de Dr. Salah Gontara
 
 ---
@@ -336,26 +336,3 @@ Sous la direction de Dr. Salah Gontara
 4. **Build multi-stage:** Le frontend utilise une approche optimisée pour réduire la taille de l'image finale
 5. **Monitoring:** Prometheus collecte automatiquement les métriques de l'API toutes les 5 secondes
 6. **Grafana:** Le dashboard est automatiquement importé au démarrage avec la datasource Prometheus configurée
-
----
-
-## 🎉 Résumé des Livrables
-
-Le projet est maintenant complètement containerisé et orchestré avec :
-
-✅ **4 services Docker** fonctionnant ensemble :
-- API FastAPI (port 8000)
-- Frontend React (port 5174)
-- Prometheus (port 9090)
-- Grafana (port 3000)
-
-✅ **Tous les fichiers requis** :
-- `api/Dockerfile`
-- `frontend/Dockerfile`
-- `docker-compose.yml`
-- `monitoring/prometheus.yml`
-- Configuration Grafana avec provisioning automatique
-
-✅ **Documentation complète** avec instructions détaillées
-
-✅ **Tests validés** pour tous les services
